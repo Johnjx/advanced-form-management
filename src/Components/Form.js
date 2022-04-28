@@ -1,3 +1,5 @@
+import './Form.css'
+
 export default function Form(props){
     const { submit, change, disabled, errors, values } = props;
 
