@@ -17,7 +17,7 @@ export default function Form(props){
     return (
         <form className="form-container" onSubmit={onSubmit}>
             <div className="input-container">
-                <h2>Join Here!</h2>
+                <h2>Sign Up!</h2>
                 <div className="error-messages">
                     <div>{errors.username}</div>
                     <div>{errors.email}</div>
